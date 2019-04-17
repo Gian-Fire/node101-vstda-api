@@ -1,13 +1,12 @@
 {
   "name": "vstd-api",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha test --exit",
     "start": "node server/index.js"
   },
-  "author": "",
+  "author": "GianFiyah",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -19,5 +18,17 @@
     "chai-http": "^3.0.0",
     "express": "^4.15.3",
     "mocha": "^3.5.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCodeSchool/node101-vstda-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanDiegoCodeSchool/node101-vstda-api/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCodeSchool/node101-vstda-api#readme",
+  "description": ""
 }
